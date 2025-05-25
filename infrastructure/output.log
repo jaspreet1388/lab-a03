@@ -1,0 +1,30 @@
+Previewing update (prod)
+
+View Live: https://app.pulumi.com/jaspreet1388-org/cst8918-a03-infra/prod/previews/597ee55e-d4fd-47e7-beb6-3718fc48ec0f
+
+
+@ Previewing update......................
+ ~  docker-build:index:Image cst8918a03chha0038-image update [diff: ~contextHash,tags]
+@ Previewing update.........
+ ~  docker-build:index:Image cst8918a03chha0038-image update [diff: ~contextHash,tags]; warning: Skipping preview build because some inputs are unknown.
+ ~  azure-native:containerinstance:ContainerGroup cst8918a03chha0038-container-group update [diff: ~containers]
+    pulumi:pulumi:Stack cst8918-a03-infra-prod  
+Diagnostics:
+  docker-build:index:Image (cst8918a03chha0038-image):
+    warning: Skipping preview build because some inputs are unknown.
+
+    [Pulumi Copilot] Would you like help with these diagnostics?
+    https://app.pulumi.com/jaspreet1388-org/cst8918-a03-infra/prod/previews/597ee55e-d4fd-47e7-beb6-3718fc48ec0f?explainFailure
+
+Resources:
+    ~ 2 to update
+    4 unchanged
+
+Updating (prod)
+
+View Live: https://app.pulumi.com/jaspreet1388-org/cst8918-a03-infra/prod/updates/13
+
+
+@ Updating........................
+ ~  docker-build:index:Image cst8918a03chha0038-image updating (0s) [diff: ~contextHash,tags]
+@ Updating.........
